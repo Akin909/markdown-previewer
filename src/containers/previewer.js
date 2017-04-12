@@ -1,11 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
+import TextArea from './text_area.js';
 
-const MarkdownInput = styled.textarea`
-  width: 50%;
-  height: 50%;
-`;
 
 
 /**
@@ -26,7 +23,7 @@ class Previewer extends Component {
 
   render() {
     return (
-      <MarkdownInput />
+      <TextArea />
     );
   }
 }

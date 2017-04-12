@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import reducer from './reducers/index';
 import Previewer from './containers/previewer';
 
+// Redux is likely unnecessary here
 let store = createStore(reducer);
 
 class App extends Component {
